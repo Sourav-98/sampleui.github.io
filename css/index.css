@@ -1,0 +1,71 @@
+@import "./bootstrap.min.css";
+@import "./all.css";
+
+@font-face{
+    font-family: "Sora";
+    src: url('./fonts/Sora/static/Sora-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Sora";
+    src: url('./fonts/Sora/static/Sora-SemiBold.ttf');
+    font-weight: bold;
+}
+
+body{
+    font-family: "Sora";
+    background: url('./bg7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.main{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 0px 20px 0px 20px;
+}
+
+.main-title{
+    font-size: 22px;
+    text-align: center;
+}
+
+.carousel-image{
+    width: 100%;
+    height: auto;
+}
+
+.course-list-header{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-top: 1.5px solid#CCCCCC;
+    margin-top: 15px;
+}
+.course-list{
+    margin-bottom: 10px;
+}
+.carousel-caption{
+    font-size: 13px;
+    text-shadow: 1px 1px 5px #444444;
+}
+
+.custom-card{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.frost-glass{
+    background-color: rgba(200, 200, 200, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
